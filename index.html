@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Banking Form</title>
+	<link rel="stylesheet" type="text/css" href="validation.css">
+</head>
+<body>
+<header>
+	<h1>
+		Banking Form
+	</h1>
+</header>
+<form action="" method="post">
+<fieldset>
+	<label for="First Name">First Name</label>
+	<input type="text" id="First Name" name="user_firstname" placeholder="Jane">
+	<label for="Middle Name">Middle Name</label>
+	<input type="text" id="Middle Name" name="user_middlename" placeholder="Janey">
+	<label for="Last Name">Last Name</label>
+	<input type="text" id="Last Name" name="user_lastname" placeholder="Doe">
+</fieldset>
+<fieldset>
+	<label for="Address">User Address</label>
+	<textarea placeholder="The Moon"></textarea><br>
+	<label for="Occupation">Occupation</label>
+	<textarea placeholder="Astronaut ambassador"></textarea><br>
+	<label for="Employer Address" name="user_employeraddress">Employer Address</label>
+	<textarea placeholder="NASA"></textarea>
+</fieldset>
+<fieldset>
+<label>Type of Loan</label>
+		<select>
+			<option>
+				i. Commercial
+			</option>
+			<option>
+				ii. Real estate
+			</option>
+			<option>
+				iii. Personal
+			</option>
+			<option>
+				iv. Mortgage
+			</option>
+		</select>
+		<label for="Requested Loan">Requested Loan</label>
+		<input type="text" id="Requested Loan" name="user_requestedloan" placeholder="1 billion dollars">
+</fieldset>
+<fieldset>
+<label>Loan Length</label><br>
+	<input type="radio" name="years" value="5">5<br>
+	<input type="radio" name="years" value="15">15<br>
+	<input type="radio" name="years" value="30">30<br>
+</fieldset>
+<fieldset>
+	<label>Special Conditions</label><br>
+	<input type="checkbox" name="condition" value="downpayment">i. I have a down payment<br>
+	<input type="checkbox" name="condition" value="outofstate">ii. Out-of-state resident<br>
+	<input type="checkbox" name="condition" value="married">iii. Married<br>
+	<input type="checkbox" name="condition" value="cosigned">iv. Loan will be co-signed<br>
+</fieldset>
+<fieldset>
+	<label>Additional Comments</label>
+	<textarea placeholder="How dare you!"></textarea>
+</fieldset>
+<fieldset>
+	<input type="email" name="user_email" placeholder="obama@gmail.com">Applicant Email<br>
+	<input type="tel" name="user_tel" placeholder="111-111-1111">Applicant Telephone<br>
+	<input type="url" name="user_linkedinurl" placeholder="Everyone hates Linkedin">Applicant Linkedin URL<br>
+</fieldset>
+<button input="submit">Submit</button>
+</form>
+</body>
+</html>
